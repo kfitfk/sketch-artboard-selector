@@ -1,18 +1,21 @@
 {
+  "name": "",
+  "description": "Selects all artboards in the selected page",
+  "author": "Ye Hao",
+  "version": "1.0.0",
   "compatibleVersion": 3,
   "bundleVersion": 1,
-  "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Select All",
+      "identifier": "yeh-select-all-artboards-identifier",
+      "script": "./select_all_artboards.cocoascript"
     }
   ],
   "menu": {
-    "title": "artboards_to_svg",
+    "title": "Artboard Selector",
     "items": [
-      "my-command-identifier"
+      "yeh-select-all-artboards-identifier"
     ]
   }
 }

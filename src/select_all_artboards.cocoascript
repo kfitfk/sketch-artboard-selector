@@ -1,0 +1,10 @@
+export default function(context) {
+  context.api().selectedDocument.selectedPage.selectedLayers.clear();
+
+  var currentPage = context.document.currentPage();
+  var artboards = [currentPage artboards];
+  for (var i = 0; i < [artboards count]; i++) {
+    let artboard = [artboards objectAtIndex:i];
+    [artboard select:true byExpandingSelection:true];
+  });
+}
